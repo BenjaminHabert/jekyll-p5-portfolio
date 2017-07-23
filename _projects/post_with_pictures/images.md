@@ -25,7 +25,7 @@ Images can be included the post itself:
 <!-- image in the same directory -->
 ![optional replacement text in case image does not load](image_full.jpg)
 <!-- image in a sub-directory -->
-![](a_gallery/image_resized.jpg)
+![](subdirectory/image_resized.jpg)
 ```
 
 ![replacement text in case image does not load](image_full.jpg)
