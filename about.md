@@ -4,6 +4,9 @@ title: About
 permalink: /about/
 ---
 
+This is a template website for showing p5.js sketches. See [here](https://github.com/BenjaminHabert/jekyll-p5-portfolio) for more infos.
+
+
 This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
 
 You can find the source code for Minima at GitHub:
