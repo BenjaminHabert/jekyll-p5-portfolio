@@ -5,14 +5,20 @@ layout: default
 <div class="home">
 
     <div class="row">
-        {% for project in site.projects %}
-          <div class="col-lg-3 col-md-4 col-sm-6">
+
+        {% assign projects = site.projects | sort: 'date' | reverse %}
+        {% for project in projects %}
+          <div class="col-lg-4 col-md-4 col-sm-6">
               <a href="{{ project.url | relative_url }}">
                   <div class="img__wrap">
-                <img class="img__img" src="{{site.baseurl}}/{{ project.url | replace: "/", " " | truncatewords: 2, "" | replace: " ", "/" }}/{{ project.thumbnail }}"></img>
-                <div class="img__description_layer">
-                    <p class="img__description">{{ project.title }}</p>
-                </div>
+                  {%if project.thumbnail %}
+                    <img class="img__img" src="{{site.baseurl}}/{{ project.url | replace: "/", " " | truncatewords: 2, "" | replace: " ", "/" }}/{{ project.thumbnail }}"></img>
+                  {% else %}
+                    <img class="img__img" src="{{ "assets/default_thumbnail.png" | relative_url }}"></img>
+                  {% endif %}
+                    <div class="img__description_layer">
+                        <p class="img__description">{{ project.title }}</p>
+                    </div>
                 </div>
               </a>
         </div>

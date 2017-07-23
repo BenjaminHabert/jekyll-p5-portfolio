@@ -1,20 +1,12 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2017-07-23 14:32:06 +0200
-categories: jekyll update
-thumbnail: image_ecran_mac.png
+title:  "Default jekyll post"
+date:   2016-12-01
 ---
-
-# HELLLO!!!
 
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
 To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
-
-Importation d'une image localement!
-
-![est ce qu'on voit l'image??](image_ecran_mac.png)
 
 
 Jekyll also offers powerful support for code snippets:
