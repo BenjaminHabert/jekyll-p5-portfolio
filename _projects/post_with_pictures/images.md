@@ -30,14 +30,7 @@ Images can be included the post itself:
 
 ![replacement text in case image does not load](image_full.jpg)
 
-![](a_gallery/image_resized.jpg)
+![](subdirectory/image_resized.jpg)
 
 Note that all paths are relative to the article itself. Consequently the easiest
 way to organise files is to place them in the same directory as the article.
-
-## Gallery of images
-
-You can use the following syntax in the markdown document:
-
-
-{% include gallery.html folder="a_gallery" %}
