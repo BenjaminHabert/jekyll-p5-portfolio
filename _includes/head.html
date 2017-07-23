@@ -12,7 +12,16 @@
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
 
+  <!-- Loading dependencies required for this page. -->
+  {% for required in page.dependencies %}
+    {% for dependency in site.data.dependencies %}
+        {% if dependency.name == required %}
+            {{dependency.element}}
+        {% endif %}
+    {% endfor %}
 
+
+  {% endfor %}
   {% if jekyll.environment == 'production' and site.google_analytics %}
   {% include google-analytics.html %}
   {% endif %}
