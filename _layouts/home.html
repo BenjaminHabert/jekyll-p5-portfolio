@@ -24,8 +24,10 @@ layout: default
     </ul class="post-list">
         {% for project in site.projects limit:3 %}
           <li>
-            <a href="{{ project.url | relative_url }}">{{ project.title }}</a>
-            <p>{{ project.short-description }}</p>
+            <a class="post-link" href="{{ project.url | relative_url }}">
+                {{ project.title }}
+                <img src="{{site.baseurl}}/{{ project.url | replace: "/", " " | truncatewords: 2, "" | replace: " ", "/" }}/{{ project.thumbnail }}"></img>
+            </a>
           </li>
         {% endfor %}
     </ul>
