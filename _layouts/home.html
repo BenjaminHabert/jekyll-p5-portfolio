@@ -4,33 +4,17 @@ layout: default
 
 <div class="home">
 
-  <h1 class="page-heading">Posts</h1>
-
-  {{ content }}
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-    </ul class="post-list">
-        {% for project in site.projects limit:3 %}
-          <li>
-            <a class="post-link" href="{{ project.url | relative_url }}">
-                {{ project.title }}
+    <div class="row">
+        {% for project in site.projects %}
+          <div class="col-md-4 col-sm-6">
+              <a class="post-link thumbnail box" href="{{ project.url | relative_url }}">
+                <span>{{ project.title }}</span>
                 <img src="{{site.baseurl}}/{{ project.url | replace: "/", " " | truncatewords: 2, "" | replace: " ", "/" }}/{{ project.thumbnail }}"></img>
-            </a>
-          </li>
+              </a>
+        </div>
+
         {% endfor %}
-    </ul>
+    </div>
 
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
 
