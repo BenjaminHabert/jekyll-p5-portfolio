@@ -6,3 +6,9 @@
 
 - name: p5.sound
   element: <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.11/addons/p5.sound.min.js"></script>
+
+- name: flexbox
+  element: <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css" />
+
+- name: live
+  element: <script type="text/javascript" src="http://livejs.com/live.js"></script>

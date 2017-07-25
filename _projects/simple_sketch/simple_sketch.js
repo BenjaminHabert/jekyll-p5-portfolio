@@ -12,7 +12,7 @@ function setup() {
 function draw() {
   strokeWeight(20.0);
   stroke(255, 100);
-  background(0);
+  background(50);
 
   dx = mouseX - x;
   dy = mouseY - y;

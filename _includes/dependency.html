@@ -1,0 +1,5 @@
+{% for dependency in site.data.dependencies %}
+    {% if dependency.name == include.name %}
+        {{dependency.element}}
+    {% endif %}
+{% endfor %}
