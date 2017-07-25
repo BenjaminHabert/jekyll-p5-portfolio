@@ -13,6 +13,8 @@ all the files for this project.
 - simple galleries of pictures
 - easy to manage list of dependencies if you want to create projects using other
 libraries than `p5.js`.
+- live-reload activated in development environment (just run `jekyll serve`, modify a file
+    and the browser auto-realoads to take into acount the changed).
 
 # Using this template for you own portfolio
 
@@ -102,7 +104,7 @@ $ cd <cool_name>
 $ jekyll serve  # this will serve the website locally at http://localhost:4000/<cool_name>/
 ```
 
-You can modify the files in `_projects/` and update your browser to see the changes.
+You can modify the files in `_projects/`; your browser should update to reflect the changes.
 Once you are done modifying files and want to update the actual website:
 
 ```
