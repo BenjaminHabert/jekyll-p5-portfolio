@@ -53,3 +53,8 @@
 .img__wrap:hover .img__description {
   transform: translateY(0);
 }
+
+.post-content p img {
+    display: block;
+    margin: auto;
+}
