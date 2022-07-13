@@ -1,21 +1,13 @@
 ---
 layout: page
-title: About
-permalink: /about/
+title: Acerca de
+permalink: /acerca-de/
 ---
 
-This is a template website for showing p5.js sketches. See [here](https://github.com/BenjaminHabert/jekyll-p5-portfolio) for more infos.
+Mi nombre es **Raúl Federico Lacabanne** (aka knnv) y soy Profesor Titular Ordinario en el Área Transdepartamental de Artes Multimediales de la Universidad Nacional de las Artes. También soy Profesor Adjunto Ordinario en la Universidad Nacional de Quilmes.
 
+Las asignaturas Artes Multimediales 1 y Artes Multimediales 4 están integradas por: Raúl Federico **Lacabanne** (Profesor Titular), Mauricio **Gutiérrez** (Profesor Adjunto), Mirna **Barreiro** (Jefa de Trabajos Prácticos), Agustín **Genoud** (Jefe de Trabajos Prácticos), Naira **Barrios** (Ayudante de Segunda), Tatiana **Kumert** (Ayudante de Segunda) y Agustina **Giménez** (Ayudante de Segunda).
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Este es un espacio expositivo de arte digital contemporáneo donde se puede visitar todos los trabajos realizados por los estudiantes que cursaron las asignaturas Artes Multiemdiales 1 y Artes Multimediales 4 pertenecientes a la Licenciatura en Artes Multimediales del Área Transdepartamental de Artes Multimediales - Universidad Nacional de las Artes - Ciudad Autónoma de Buenos Aires - Argentina. Este sitio es un fork de la plantilla portfolio de Benjamin Habert (https://github.com/benjaminhabert). Copyleft 2020-2022.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+Los invitamos a visitar también nuestro canal de [Youtube](https://www.youtube.com/channel/UCmXuU1BZVZDfdqraE5s8QiQ).
