@@ -16,7 +16,7 @@
 title: Artes Multimediales (cátedra Lacabanne)
 email: raul.lacabanne@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Este es un espacio donde se puede visitar los trabajos realizados por las y los estudiantes que cursaron las asignaturas Artes Multiemdiales 1 y Artes Multimediales 4 pertenecientes a la Licenciatura en Artes Multimediales del Área Transdepartamental de Artes Multimediales - Universidad Nacional de las Artes - Ciudad Autónoma de Buenos Aires - Argentina.
+  Este es un espacio expositivo de arte digital contemporáneo donde se puede visitar todos los trabajos realizados por los estudiantes que cursaron las asignaturas Artes Multiemdiales 1 y Artes Multimediales 4 pertenecientes a la Licenciatura en Artes Multimediales del Área Transdepartamental de Artes Multimediales - Universidad Nacional de las Artes - Ciudad Autónoma de Buenos Aires - Argentina. Este sitio es un fork de la plantilla portfolio de Benjamin Habert (https://github.com/benjaminhabert). Copyleft 2020-2022.
 baseurl: "/am-lacabanne" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: raullacabanne
