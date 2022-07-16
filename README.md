@@ -1,8 +1,12 @@
-Este proyecto está basado en una plantilla que presenta un portfolio de imágenes y bocetos de p5.js llevado a cabo por [Benjamin Habert](https://github.com/benjaminhabert).
+Este proyecto es un fork basado en una plantilla-portfolio de imágenes y bocetos de p5.js llevado a cabo por [Benjamin Habert](https://github.com/benjaminhabert).
 
-# Sitio en línea
+# Arrival site
 
 https://knnv-ar.github.io/am-lacabanne/
+
+# Departure site
+
+https://am1-lacabanne.atamvirtual.com.ar
 
 # Features
 
