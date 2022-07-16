@@ -1,6 +1,8 @@
-This project is a template for a simple portfolio of pictures and p5.js sketches.
+Este proyecto está basado en una plantilla que presenta un portfolio de imágenes y bocetos de p5.js llevado a cabo por [Benjamin Habert](https://github.com/benjaminhabert).
 
-# Live Demo
+# Sitio en línea
+
+https://knnv-ar.github.io/am-lacabanne/
 
 https://benjaminhabert.github.io/jekyll-p5-portfolio/
 
