@@ -4,8 +4,6 @@ Este proyecto está basado en una plantilla que presenta un portfolio de imágen
 
 https://knnv-ar.github.io/am-lacabanne/
 
-https://benjaminhabert.github.io/jekyll-p5-portfolio/
-
 # Features
 
 - free hosting using [github-pages](https://pages.github.com/)
