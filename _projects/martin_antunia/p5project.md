@@ -5,6 +5,7 @@ date: 2020-12-10
 thumbnail: thumbnail.png
 dependencies:
   - p5
+  - p5.sound
 ---
 
 <div id="div-sketch" style="width: 100vw, max-width: 512px;">
