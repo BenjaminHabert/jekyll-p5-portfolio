@@ -11,6 +11,7 @@ var colorRect = 0,
 
 function setup() {
   canvas = createCanvas(512, 512);
+  // aquí va el id del div que contiene el archivo.js
   canvas.parent("div-sketch");
   frameRate(30);
 }
