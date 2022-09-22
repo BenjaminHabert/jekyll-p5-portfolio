@@ -8,7 +8,7 @@ dependencies:
   - p5.sound
 ---
 
-<div id="div-sketch" style="width: 100vw, max-width: 512px;">
+<div id="div-sketch" style="width: 100vw; max-width: 512px; text-align: center">
     <script type="text/javascript" src="sketch.js"></script>
 </div>
 
