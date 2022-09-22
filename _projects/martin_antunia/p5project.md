@@ -7,7 +7,7 @@ dependencies:
   - p5
 ---
 
-<div id="div-sketch" style="width: 100vw">
+<div id="div-sketch" style="width: 100vw, max-width: 512px;">
     <script type="text/javascript" src="sketch.js"></script>
 </div>
 
