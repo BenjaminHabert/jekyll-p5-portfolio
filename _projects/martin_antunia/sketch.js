@@ -9,8 +9,12 @@ var colorRect = 0,
   agrandaMas = 256,
   valorSeno = 0;
 
+// variables que controlan alto y ancho
+var w = window.innerWidth;
+var h = window.innerHeight;
+
 function setup() {
-  canvas = createCanvas(512, 512);
+  canvas = createCanvas(w, h);
   // aquí va el id del div que contiene el archivo.js
   canvas.parent("div-sketch");
   frameRate(30);
@@ -109,4 +113,12 @@ function auraRedonda() {
       point(i + movimientoNeg * 2 * valorSeno, j + movimiento * 2 * valorSeno);
     }
   }
+}
+
+// window resize
+window.onresize = function() {
+  // assigns new values for width and height variables
+  w = window.innerWidth;
+  h = window.innerHeight;  
+  canvas.size(w,h);
 }
