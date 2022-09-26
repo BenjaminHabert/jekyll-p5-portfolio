@@ -2,7 +2,7 @@ Este proyecto es un fork basado en una plantilla-portfolio de imágenes y boceto
 
 # Arrival site
 
-https://knnv-ar.github.io/am-lacabanne/
+https://knnv-ar.github.io/la-piscine/
 
 # Departure site
 
