@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Representación del aura"
+title: "Bola de fetiche"
 date: 2020-12-10
 thumbnail: thumbnail.png
 dependencies:
