@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Entrar al flujo"
-date: 2020-12-10
+date: 2021-12-10
 thumbnail: thumbnail.png
 dependencies:
   - p5
