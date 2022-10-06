@@ -17,6 +17,7 @@ var movimiento = 0,
   luz = 0;
 
 function setup() {
+  canvas.parent("div-sketch");
   createCanvas(512, 512, WEBGL);
   textura = createGraphics(1000, 1000);
   background(0);
