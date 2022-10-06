@@ -29,6 +29,7 @@ function setup() {
   vid2 = createVideo("publico.mp4");
   vid2.hide();
   vid2.loop();
+  canvas.parent("div-sketch");
 }
 
 function draw() {
