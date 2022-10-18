@@ -1,14 +1,16 @@
-Este proyecto es un fork basado en una plantilla-portfolio de imágenes y bocetos de p5.js llevado a cabo por [Benjamin Habert](https://github.com/benjaminhabert).
+# <la-piscine> galería de arte digital
 
-# Arrival site
+Este proyecto está basado en una plantilla-portfolio de imágenes y bocetos de p5.js llevado a cabo por [Benjamin Habert](https://github.com/benjaminhabert).
+
+## Arrival site
 
 https://knnv-ar.github.io/la-piscine/
 
-# Departure site
+## Departure site
 
 https://am1-lacabanne.atamvirtual.com.ar
 
-# Features
+## Features
 
 - free hosting using [github-pages](https://pages.github.com/)
 - homepage with all your projects represented as thumbnails
@@ -20,9 +22,9 @@ libraries than `p5.js`.
 - live-reload activated in development environment (just run `jekyll serve`, modify a file
     and the browser auto-realoads to take into acount the changed).
 
-# Using this template for you own portfolio
+## Using this template for you own portfolio
 
-## Step 1: github
+### Step 1: github
 
 Assuming that you already have a github account:
 
@@ -37,7 +39,7 @@ Assuming that you already have a github account:
  (this might take a minute).
 
 
-## Step 2: customization
+### Step 2: customization
 
 You might want to change the website name or add a link to your twitter account.
 
@@ -62,7 +64,7 @@ You can change the content of the file `aboud.md` to give info about yourself or
 You can replace the content of `README.md` (this file). In particular you should link to your own
 repository in the **Live Demo** section.
 
-## Step 3: create your first sketch
+### Step 3: create your first sketch
 
 The easiest point to start is to create a copy of the directory `simple_sketch` in the folder `_projects` with a new directory name.
 
@@ -91,12 +93,12 @@ Once you are done modifying the project, commit your changes. Github will automa
 the home page to include your new project. The home page shows the projetcs' thumbnails and lists them
 by date from most to least recent.
 
-## Going further
+### Going further
 
 Each post in the template project explains a simple feature of this portfolio. Browse the live website for more infos.
 
 
-# Local development using jekyll
+## Local development using jekyll
 
 This portfolio website was build using jekyll (see [here](https://jekyllrb.com/docs/installation/)
 for installation). The easiest way to add new content to your portfolio is to download
