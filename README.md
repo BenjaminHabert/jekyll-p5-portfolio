@@ -1,4 +1,4 @@
-# <la-piscine> galería de arte digital
+# `<la-piscine>` galería de arte digital
 
 Este proyecto está basado en una plantilla-portfolio de imágenes y bocetos de p5.js llevado a cabo por [Benjamin Habert](https://github.com/benjaminhabert).
 
